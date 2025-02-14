@@ -47,7 +47,7 @@ while true do
     elseif choice == "4" then
         os.reboot()
     elseif choice == "5" then
-        break -- Exits back to shell
+        shell.run("shell.lua")
     else
         print("Invalid option. Try again.")
         sleep(1)
