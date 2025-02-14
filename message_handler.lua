@@ -1,7 +1,7 @@
 -- PocketOS Message Handler
 -- Allows sending and receiving Base64-encoded messages
 
-local modemSide = peripheral.find("modem")
+local modemSide = "top"
 
 
 -- Base64 Encoding & Decoding
