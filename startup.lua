@@ -1,5 +1,5 @@
 -- PocketOS Startup Script
-
+-- Test
 -- Clear screen and set cursor position
 term.clear()
 term.setCursorPos(1, 1)
